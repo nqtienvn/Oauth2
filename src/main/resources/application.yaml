@@ -1,7 +1,5 @@
+server:
+  port: 9000
 spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          github:
-
+  thymeleaf:
+    cache: false
